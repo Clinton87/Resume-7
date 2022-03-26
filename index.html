@@ -28,7 +28,13 @@
         <!--Start of Aside Tag-->
     <aside>
         <!--Main page Image-->
-        <img id="main" src="images/BnW_check_clinton_garden.jpg" alt="Clinton standing" width="400" height="390">
+
+        <picture>
+            <source media="(max-width: 650px)" srcset="images/colour_crop2.jpg" width="420" height="380">
+            <source media="(max-width: 1000px)" srcset="images/colour_crop.jpg" width="420" height="380">
+            <img src="images/colour_crop1.jpg" alt="clinton standing there" width="420" height="380">
+        </picture>
+
         <p>I look forward to learning and progressing in the world of code as a Front End Developer.</p>
         <p>I am very detail oriented and I believe that with more time and practice I'll be able to bring my creativity to life in code.</p>
     </aside>
