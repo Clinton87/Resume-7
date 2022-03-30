@@ -9,7 +9,10 @@ html    {
 
 h1, h2, h3, h4, p  {
     text-align: center;
-    padding-bottom: 5px;
+    color: #660816;
+    font-size: 250%;
+}
+
 }
 
 h2, h3  {
@@ -21,6 +24,7 @@ p   {
     font-size: 20px;
     text-decoration-thickness: 10px;
     font-weight: bold;
+    font-size: 150%;
 }
 
 #main   {
@@ -114,4 +118,17 @@ header  {
     display: flex;
     justify-content: space-around;
 
+}
+
+.woody {
+    background-image: url("/images/blue_back.jpg");
+    background-color: #123dcc;
+    background-size: cover;
+    position: relative;
+}
+
+.I_am   {
+    color: white;
+    font-size: 120%;
+    text-shadow: 5px 3px black;
 }
