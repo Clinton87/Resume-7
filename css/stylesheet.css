@@ -125,6 +125,7 @@ header  {
     background-color: #123dcc;
     background-size: cover;
     position: relative;
+    display: grid;
 }
 
 .I_am   {
